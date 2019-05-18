@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    text-align: center;
+
+}
+body {
+    font-size: 16px;
+    background-color: white;
+}
+header {
+    margin: 5px auto;
+    background-color: white;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px #000;
+    text-align: center; 
+}
+
+.header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.logo, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.hero {
+    margin: 100px auto;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+    text-align: center; 
+}
+
+.townname {
+    margin: 40px auto;
+}
+.main-article {
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px #000;
+    text-align: center; 
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px;
+    background-color: skyblue;
+    color: black;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px #000;
+
+}
+
