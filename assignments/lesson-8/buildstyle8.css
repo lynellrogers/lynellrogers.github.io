@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    text-align: center;
+
+}
+body {
+    font-size: 16px;
+    background-color: white;
+}
+header {
+    margin: 5px auto;
+    background-color: white;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px #000;
+    text-align: center; 
+}
+
+.header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.logo, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.hero {
+    margin: 100px auto;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+    text-align: center; 
+}
+
+.townname {
+    margin: 40px auto;
+}
+.main-article {
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px #000;
+    text-align: center; 
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px;
+    background-color: skyblue;
+    color: black;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px #000;
+
+}
+
+tbody {
+    width: 300px;
+    border: 1px solid gray;
+    font-family: Ubuntu, sans-serif;
+}
+
+thead {
+    width: 300px;
+    border: 1px solid green;
+    font-family: Ubuntu, sans-serif;
+}
+
+ 
+table {
+    width: 300px;
+    margin: auto;
+}
+
+caption {
+    color: black;
+    background-color: #7fb9c2; 
+    width: 630px;
+    height: 40px;
+}
+
+.caption2 {
+    background-color: #7fb9c2; 
+    color:black;
+    width: 630px;
+    font-size: 6px;
+}
+
+th, caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    margin: 9px;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+
+th {
+    background-color: #628ca6;
+    color: white;
+    font-size: 18px;
+    padding: 9px;
+}
+
+tr {
+    margin: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+span {
+    background-color: #628ca6;
+}
+
+tfoot { 
+    font-size: 10px;
+    display: inline;    
+}
+
+
