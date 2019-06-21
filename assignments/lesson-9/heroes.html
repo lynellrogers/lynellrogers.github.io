@@ -12,33 +12,33 @@
   <body>
 
       <header>
-
+        <h1>Using XHR</h1>
+        <h1 id="page-list"></h1>
       </header>
-
-      <section>
-
+  <main>
+      <section id="list">
       </section>
-
+  </main>    
+  
     <script>
-    var header = document.querySelector('header');
-    var section = document.querySelector('section');
+     var header = document.querySelector('header');
+     var section = document.querySelector('section');
     
-    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/superheroes.json';
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
+     var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/superheroes.json';
+     var request = new XMLHttpRequest();
+       request.open('GET', requestURL);
+       request.responseType = 'json';
+       request.send();
     
-    request.onload = function() {
-      var superHeroes = request.response;
-      populateHeader(superHeroes);
-      showHeroes(superHeroes);
-}
+       request.onload = function() {
+        var superHeroes = request.response;
+        populateHeader(superHeroes);
+        showHeroes(superHeroes);
+        }
 
 function populateHeader(jsonObj) {
-    var myH1 = document.createElement('h1');
-    myH1.textContent = jsonObj['squadName'];
-    header.appendChild(myH1);
+    document.getElementById('page-title').innerHTML = jsonObj
+    ['squadName'];
 
     var myPara = document.createElement('p');
     myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
