@@ -6,19 +6,19 @@
   }
   
   body {
-    width: 400px;
+    width: 800px;
     margin: 0 auto;
     text-align: center;
   }
   
   h1, h2 {
-    font-family: 'Faster One', cursive;
-  }
+    font-family: Helvetica, sans-serif;
+   }
   
   /* header styles */
   
   h1 {
-    font-size: 4rem;
+    font-size: 24px;
     text-align: center;
   }
   
@@ -26,13 +26,15 @@
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
-  }
+    width: 200px;
+    }
   
   /* section styles */
 
   .list {
     font-weight: bold;
   }
+
   section {
     width: 100%;
     text-align: center;
@@ -55,6 +57,46 @@
 
   h2 {
     font-size: 2.5rem;
-    letter-spacing: -5px;
+    letter-spacing: -1px;
     margin-bottom: 10px;
   }
+
+  .logo {
+    float: left;
+    margin: 50px;
+  }
+
+  .logotitle {
+    float: right;
+  }
+
+  .navigate {
+    margin-top: 20px; 
+  }
+
+  .motto {
+    font-style: italic;
+    text-align: center;
+    float: 
+  }
+
+.townname {
+  font-family: Helvetica, sans-serif;
+  padding-top: 30px;
+  text-align: center;
+}
+  nav {
+    text-align: center;
+    display: inline-block;
+    width: 850px;
+    height: 30px;
+    margin: 1px;
+    border: 1px solid blue;
+    background-color: cadetblue; 
+  }
+
+nav li {
+    display: inline-block;
+    padding-top: 5px;
+    margin-left: 55px;
+}
