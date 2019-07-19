@@ -1,52 +1,78 @@
 * {
     margin: 0;
     text-align: center;
-   
 }
+
 body {
     font-size: 16px;
     background-color: #bfefff;
     width: 900px;
     margin: auto;
 }
+
 header {
     margin: 5px auto;
     background-color: #ffffff;
     border: 1px solid skyblue;
     box-shadow: 0 0 5px #000;
     text-align: center; 
+    
 }
 
-.header img, .headings {
+header img, .headings {
     display: inline-block;
-    vertical-align: auto;
+    vertical-align: center;
     text-align: center;
     margin: 20px;
     padding: 5px;
-  
+    width: 20%;
+    height: 20%;
+  }
+
+
+h1  {
+    height: 350px;
+    width: 250px;
+    margin-left: -250px;
+    margin-top: 100px;
 }
+
+
+.main img {
+    width: 5%;
+    height: 5%;
+  }
+
 
 .logo, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
+    max-width: 500px;
    
 }
 
-.logo, .motto {
+.logo {
     display: inline-block;
     vertical-align: middle;
     margin: 15px;
     position: relative;
     bottom: 30px;
-    left: 50px;
+    left: -180px;
     font-size: 25px;
 }
 
-.motto {
-    font-size: 40px;
-    margin: auto;
+.logotitle {
+    width: 250%;
+    height: 50%;
 }
+
+.motto {
+    font-size: 25px;
+    margin-top: -101px;
+    width: 400px; 
+}
+
 .stripe {
     background-color: #0101DF;
     width: 880px; 
@@ -89,12 +115,16 @@ nav a:hover {
     border: 1px solid skyblue;
     padding: 20px;
     box-shadow: 0 0 10px #000;
-    text-align: center; 
+    text-align: center;
+}
+
+.hero img {
+    width: 50%;
+    height: 50%;
 }
 
 .townname {
     padding-top: 20px;
-    padding-bottom: -55px;
     margin: 20px auto;
 }
 
@@ -114,6 +144,10 @@ footer {
    box-shadow: 0 0 10px #000;
 }
 
+footer img {
+    width: 50%;
+    height: 50%;
+}
 footer h3 {
     text-align: left;
     margin: 20px;
