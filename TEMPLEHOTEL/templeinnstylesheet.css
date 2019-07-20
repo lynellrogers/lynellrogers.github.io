@@ -2,7 +2,8 @@
     margin: 0;
     text-align: center;
     font-family: 'helvetica-neue', helvetica, arial, sans-serif;
-    }
+    box-sizing: border-box;
+  }
     
     body {
       width: 853px;
@@ -22,14 +23,9 @@
     }
     
     header {
-      background-color: lightgray;
+      background-color: white;
     }
-    header p {
-      font-size: 1.3rem;
-      text-align: center;
-      width: 180px;
-    }
-    
+       
     /* section styles */
   
     .list {
@@ -62,27 +58,35 @@
       margin-bottom: 10px;
     }
   
-    .logo {
-      float: left;
-      margin: 40px;
+    .logo img {
+     margin-top: 30px;   
+     margin: 30px;
+     width: 850px;
+     height: 500px;
+    }
 
+    .flag {
+      float: left;
+      margin-left: 699px;
+      max-width: 100px;
+      max-height: 140px;
     }
-  
-    .logotitle {
-      float: right;
+   
+    .img-container {
+      float: left;
+      width: 25%;
+      padding: 5px;
     }
-  
-    .navigate {
-      margin-top: 20px; 
-    }
-  
+   
     .motto {
       font-style: italic;
-      text-align: center;
-      font-size: 40px; 
-      padding-top: 80px;
-      max-width: 1000px;
-      color: white;
+      font-size: 32px; 
+      padding-right: 18px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      max-width: 894px;
+      color: black;
+      border: 3px solid black;
     }
   
   .townname {
@@ -90,19 +94,83 @@
     padding-top: 30px;
     text-align: center;
   }
-    nav {
+
+  .navigate {
+    margin-top: -1px; 
+    width: 810px;
+    color: white;
+  }
+
+  nav {
       text-align: center;
       display: inline-block;
-      width: 850px;
-      height: 30px;
-      margin: 1px;
-      border: 1px solid ;
-      background-color: cadetblue; 
-    }
-  
+      width: 854px;
+      padding: 5px 5px 10px 10px;
+      height: 35px;
+      margin: 5px;
+      margin-left: -1.5px;
+      border: 1px solid;
+      background-color: black; 
+      color: white; 
+      text-decoration: none;
+  }  
+    
   nav li {
-      display: inline-block;
-      padding-top: 5px;
-      margin-left: 55px;
+    padding-right: 35px;
+    padding-top: 2px;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    text-decoration: none;    
   }
   
+  a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: lightgray;
+  }
+  
+  a:hover {
+    color: lightgray;
+  }
+  
+  a:active {
+    color: #d4ddac;
+  }
+
+  #bar {
+    height:65%;
+    width: 100%;
+}
+
+table.BarTable,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    line-height: 0;
+    color: white;
+    max-height: 5px;
+    max-width: 900px;
+    align-content: center;
+    background-color:#f2f2f2;
+}
+
+td {
+    padding: 20px 5px;
+    font-size: 17px;
+    color: white;
+}
+
+span.td { 
+  display: block; 
+}
+
+.letssee, name {
+  margin-top: 20px;
+  color: black;
+}
+
+main, name {
+  color: black;
+}
