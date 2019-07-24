@@ -11,23 +11,68 @@
       text-align: center;
     }
     
-    h1, h2 {
+    h1, h2, h3 {
       font-family: Helvetica, sans-serif;
-     }
-    
-    /* header styles */
+    }
     
     h1 {
       font-size: 24px;
       text-align: center;
+      margin-top: 10px;
     }
-    
+
+    h2 {
+      font-size: 15px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    h3 {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      max-width: 750px;
+      background-color: #d9d9d9;
+      color: black;     
+      border: 1px solid #8696ad;
+      padding: 10px;
+      align-content: center; 
+      margin-left: 60px;
+    }
+
+    h4 {
+      font-size: 27px;
+      text-align: center;
+      margin-top: 20px;
+      color: #8696ad;
+    }
+
+    h5 {
+      font-size: 21px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 55px;
+      max-width: 750px;
+      background-color: #d9d9d9;
+      color: #122b01;     
+      border: 3px solid #8696ad;
+      padding: 10px;
+      align-content: center; 
+    }
+
+    h6 {
+      font-size: 28px;
+      text-align: center;
+      margin-top: 30px;
+      color: #5C708C;
+    }
+      
     header {
       background-color: white;
     }
-       
-    /* section styles */
-  
+    
     .list {
       font-weight: bold;
     }
@@ -51,13 +96,7 @@
       margin-top: 0;
     }
   
-  
-    h2 {
-      font-size: 2.5rem;
-      letter-spacing: -1px;
-      margin-bottom: 10px;
-    }
-  
+   
     .logo img {
      margin-top: 30px;   
      margin: 30px;
@@ -70,6 +109,11 @@
       margin-left: 699px;
       max-width: 100px;
       max-height: 140px;
+    }
+
+    .uppity {
+      margin-top: 20px;
+      margin-bottom: 40px;
     }
    
     .img-container {
@@ -87,21 +131,66 @@
       max-width: 894px;
       color: black;
       border: 3px solid black;
+      letter-spacing: .1pc;
     }
   
-  .townname {
-    font-family: Helvetica, sans-serif;
-    padding-top: 30px;
-    text-align: center;
-  }
+    .amen {
+        font-size: 21px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 125px;
+        max-width: 600px;
+        background-color: #8696ad;
+        color: #23190d;     
+        border: 3px solid #23190d;
+        padding: 10px;
+        align-content: center; 
+    }
+  
+    .amen2 {
+      font-size: 21px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 55px;
+      max-width: 750px;
+      background-color: #d9d9d9;
+      color: #122b01;     
+      border: 3px solid #8696ad;
+      padding: 10px;
+      align-content: center; 
+     }
+  
+    .amen3 {
+      font-size: 21px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 55px;
+      max-width: 750px;
+      background-color: #d9d9d9;
+      color: #122b01;     
+      border: 3px solid #8696ad;
+      padding: 10px;
+      align-content: center; 
+      text-decoration: none;
+      list-style: none;
+    }
 
-  .navigate {
-    margin-top: -1px; 
-    width: 810px;
-    color: white;
-  }
+    .townname {
+      font-family: Helvetica, sans-serif;
+      padding-top: 1px;
+      text-align: center;
+    }
 
-  nav {
+    .navigate {
+     margin-top: -1px; 
+     width: 810px;
+     color: white;
+    }
+
+    nav {
       text-align: center;
       display: inline-block;
       width: 854px;
@@ -109,68 +198,124 @@
       height: 35px;
       margin: 5px;
       margin-left: -1.5px;
-      border: 1px solid;
+      border: 3px solid #63860a;
       background-color: black; 
       color: white; 
       text-decoration: none;
-  }  
+    }   
     
-  nav li {
-    padding-right: 35px;
-    padding-top: 2px;
-    display: inline-block;
-    color: white;
-    font-size: 19px;
-    text-decoration: none;    
-  }
+    nav li {
+     padding-right: 35px;
+     padding-top: 2px;
+     display: inline-block;
+     color: white;
+     font-size: 20px;
+     text-decoration: none;    
+    }
   
-  a:link {
-    color: #ffffff;
-  }
+    a:link {
+     color: #8696ad;
+    }
   
-  a:visited {
-    color: lightgray;
-  }
+    a:visited {
+     color: lightgray;
+    }
   
-  a:hover {
-    color: lightgray;
-  }
+    a:hover {
+     color: lightgray;
+    }
   
-  a:active {
-    color: #d4ddac;
-  }
+    a:active {
+     color: #d4ddac;
+    }
 
-  #bar {
-    height:65%;
-    width: 100%;
-}
+    #bar {
+     height: 35%;
+     width: 80%;
+    }
 
-table.BarTable,th,td {
-    border: 2px solid black;
-    border-collapse: collapse;
-    line-height: 0;
-    color: white;
-    max-height: 5px;
-    max-width: 900px;
-    align-content: center;
-    background-color:#f2f2f2;
-}
+    #bar2 {
+     height: 65%;
+     width: 100%;
+    }
 
-td {
-    padding: 20px 5px;
-    font-size: 17px;
-    color: white;
-}
+    #bar3 {
+     height: 65%;
+     width: 100%;
+    }
 
-span.td { 
-  display: block; 
-}
+    #bar4 {
+     height: 65%;
+     width: 100%;
+    }
 
-.letssee, name {
-  margin-top: 20px;
-  color: black;
-}
+    table.BarTable,th,td {
+     border: 2px solid black;
+     border-collapse: collapse;
+     line-height: 0;
+     color: white;
+     max-height: 5px;
+     max-width: 1200px;
+     align-content: center;
+     margin-left: 95px;
+    }
 
-main, name {
-  color: black;
-}
+    table.Bar2Table,th,td {
+     border: none;
+     border-collapse: collapse;
+     line-height: 0;
+     color: white;
+     max-height: 5px;
+     max-width: 400px;
+     align-content: center;
+     margin-top: 15px;
+     margin-left: -10px;
+    }
+
+    table.Bar4Table,th,td {
+     border: none;
+     border-collapse: collapse;
+     line-height: 0;
+     color: white;
+     max-height: 5px;
+     max-width: 800px;
+     align-content: center;
+     margin-top: 15px;
+     margin-left: -10px;
+    }
+
+    td {
+     padding: 20px 5px;
+     font-size: 20px;
+     color: purple;
+     text-align: center;
+    }
+
+    span.td { 
+     display: block; 
+    }
+
+    .letssee, name {
+      margin-top: 10px;
+      color: black;
+      background-color: #d9d9d9;
+      text-align: center;
+      align-content: center;
+    }
+
+    main, name {
+     color: black;
+    }
+
+    footer {
+     margin: 10px;
+     padding: 20px;
+     padding-top: 20px;
+     background-color: black;
+     border: 10px solid #63860a;
+     content: center;
+     width: 830px;
+     color: white;
+     font-display: none;
+     letter-spacing: .2pc;
+    }

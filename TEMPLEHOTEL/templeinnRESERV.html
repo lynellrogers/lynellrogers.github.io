@@ -7,17 +7,18 @@
     <style>
         .flex-container {
           display: flex;
-          background-color: #63850a;
+          background-color: #8696ad;
           max-width: 700px;
           margin-top: 30px;
           margin-left: 80px;
+          margin-bottom: 10px;
           flex-direction: column;
         }
         .flex-container > div {
-          background-color: #23190d;
+          background-color: #d9d9d9;
           margin: 10px;
-          padding: 20px;
-          font-size: 25px;
+          padding: 10px;
+          font-size: 19px;
           text-align: left;
         }
         </style>
@@ -25,104 +26,84 @@
   <body>
     <header>
         <img class="logo" src="images/portlandtempleeeenewcover.jpg" alt="Temple Inn and Suites Logo" width="850" height="400" />
-        <p><div class="motto">The ultimate stay for your special temple day</div></p>  
+        <p><div class="motto">The ultimate stay for your special temple day</div> 
         <div class="navigate">
         <nav>
-             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Temple</a></li>      
-              <li><a href="#">Accomodations</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Reservations</a></li>      
-              <li><a href="#">Services</a></li>
-             </ul>
+            <ul>
+                <li><a href="templeinnindex.html">Home</a></li>
+                <li><a href="templeinnTEMPLE.html">Temple</a></li>      
+                <li><a href="templeinncontact.html">Contact</a></li>
+                <li><a href="templeinnreserv.html">Reservations</a></li>      
+                <li><a href="templeinnservices.html">Services</a></li>
+               </ul>
         </nav>
         </div>
     </header>
     <main>
-        <div class="letssee">
-            <label for="name">First name</label>
-            <input id="name" name="name" type="text" />
-            <label for="name">Last name</label>
-            <input id="name" name="name" type="text" />
-        </div>
-        <div class="letssee">
-            <label for="name">Contact phone number</label>
-            <input id="name" name="name" type="text" />
-            <label for="name">Email address</label>
-            <input id="name" name="name" type="text" />
-        </div>  
-        <div class="letssee">
-            <label for="experience">I am interested in reserving the following:</label>
-            <div>
-                <select id=”Reservation of” name=”Reservation of”>
-                <option value=”1”>Hotel Room(s)</option>
-                <option value=”2”>Reception Hall</option>
-                <option value=”3”>Reception Hall & Food Service</option>
-                <option value=”4”>Hotel Room(s), Reception Hall, & Food Service</option>
-                <option value=”5”>Temple Missionary Housing</option>
-                </select>
-            </div>
-              
-            <div class="letssee">
+        <div class="townname">
+                    <h3>Reservation Requests</h3> </div>
+                    <img src="images/hotellobby4.jpg.png"  alt="hotel lobby main" width="600" height="450"/>      
+                    <h1>Please complete the following form and a Temple Inn & Suites <br>reservation specialist will contact with you within 24 hours</h1> 
+        <div class="flex-container">
+             <div class="letssee">
+                First name 
+                <input id="name" name="name" type="text" />
+                Last name 
+                <input id="last" name="last" type="text" />
+                </div>
+             <div class="letssee">
+               Contact phone number 
+                <input id="phone" name="phone" type="text" />
+                </div>
+             <div class="letssee">Home state or Country 
+                  <input id="home" name="home" type="text" />  
+                  </div>  
+             <div class="letssee">Interested in reserving the following: 
+                <select id=”Reservation” name=”Reservation”>
+                    <option value=”1”>(Select from list)</option>
+                    <option value=”2”>Hotel Room(s)</option>
+                    <option value=”3”>Reception Hall</option>
+                    <option value=”4”>Reception Hall & Food Service</option>
+                    <option value=”5”>Hotel Room(s), Reception Hall, & Food Service</option>
+                    <option value=”6”>Temple Missionary Housing</option>
+                    </select>
+                </div>
+              <div class="letssee">
+                   at the following Temple Inn & Suites location 
+                    <select id=”Location” name=”Location”>
+                        <option value=”1”>(Select from list)</option>
+                        <option value=”2”>Portland, Oregon</option>
+                        <option value=”3”>Seattle, Washington</option>
+                        <option value=”4”>Medford, Oregon</option>
+                        <option value=”5”>Richland, Washington</option>
+                        </select>
+                    </div> 
+             <div class="letssee">
                 <p>
-                <label for="name">Desired reservation dates</label>
-                <input id="name" name="name" type="text" /> </p>
-            </div>
-       
-
-           
-        <div class="letssee">
-            <label for="html">Contact me to confirm reservation details</label>
-            <input id="html" name="html" type="checkbox" />
-        </div>
-             
-      <div class="flex-container">
-        <div>Name</div>
-        <div>Phone number</div>
-        <div>Email address</div>
-        <div>Dates of interest</div>
+                Desired reservation dates
+                <input id="dates" name="dates" type="text" /> </p>
+             </div>
         <form action=”get”>
-
-        
-            
-      </div> 
-      
-      <div class="townname">
-        <h2>Preston Idaho</h2> </div>
-        <div class="hero">
-            <img src="images/sunlogoPLACEHOLDER.jpg"  alt="Sunny Weather Placeholder" width="150" height="150" />  </div>    
-        <section class="main-article">
-            <h3>Article Title</h3> 
-            <div class="acc">by author</div>  
-            <div id="content">    
-                <article>
-                   <h4> text</h4>
-                    <picture>
-                            <img src="images/sunlogoPLACEHOLDER.jpg"  alt="Sunny Weather Placeholder" width="150" height="150" />  
-                    </picture>                    
-                </article> 
-            </div>
-       
-        </section>
+            <div class="letssee">
+                Interested in reserving multiple rooms for a temple sealing or youth temple trip 
+                <input id="multiple" name="multiple" type="checkbox" />
+            </div>       
+        </form>
+            <div class="letssee">
+               Additional comments/accommodation requests: 
+                <input id="comment" name="comment" type="text" />
+                </div>
+             </div>
+  
     </main>
     <aside>
 
     </aside>
     <footer>
-        <p>Contact Information</p>
-        <img src="images/sunlogoPLACEHOLDER.jpg"  alt="Sunny Weather Placeholder" width="150" height="150" />  
+        <p> <h1>1-555-5555  |  templeinn&suites@fauxmail.com</h1>
+            <h2>Copyright 2019 | Temple Inn & Suites | Bethesda, MD</h2><br>
+           <a href="TempleRESOURCEREF.html">Resource Reference Page</a>
     </footer>
-      <header>
-        <h1>Super Hero Squad</h1>
-        <h1 id="page-list"></h1>
-      </header>
-
-      <section id="list">
-          <p>Hometown: Metro City // Formed: 2016</p>
-      </section>
-
-    </script> 
   </body>
 </html>
 
